@@ -13,7 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="bg-white my-5 border-b-2">
+    <!-- header start -->
+    <header class="bg-white my-5">
       <div
         class="header-container flex justify-between items-center w-11/12 mx-auto"
       >
@@ -43,5 +44,25 @@
         </div>
       </div>
     </header>
+    <section
+      class="bg-gradient-to-b from-[#013223] via-[#006747] to-[#013223] w-full h-[239px] text-center"
+    >
+      <div class="banner-section p-8">
+        <img src="./assets/logo.png" alt="" class="w-20 mx-auto" />
+        <h1 class="font-bold text-white text-2xl my-4">
+          Emergency Service Directory
+        </h1>
+        <p class="text-white">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </div>
+    </section>
+    <main>
+      <div class="main-container grid-cols-12 w-11/12 mx-auto">
+        <div class="cards col-span-9"></div>
+        <div class="call-history col-span-3"></div>
+      </div>
+    </main>
   </body>
 </html>
