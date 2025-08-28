@@ -118,6 +118,32 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 ---
 
+Ans the question no 1:----
+getElementById---select one element by unique id and always returan a single element.
+
+getElementByClassName----select all element by class name and return html collection like array not array.
+
+querySelector---selects the first element the match the given css selector. and return a single element.
+
+quearySelectorAll---selects the all element that natch the given css selector. and return a nodelist.
+
+Ans the question no 2:----
+
+first create the element then add content or attributes like text, class, id etc. and last insert into the dom.
+
+Ans the question no 3:----
+Event starts form the terget element and then moves the upword through its parent element until it riches the root.
+when you click the button , first child click return then event bubbles up to the parents. so parent click return.
+
+Ans the question no 4:----
+
+Even Delegation----you add on eevent listener to a comment parent and let the event bubble up. use one parent listener instead of many child listeners it useful becose saves memory and it faster.
+use for dynamic elements and performance.
+
+Ans the question no 5----
+prevent defalt stop the defolt behavior.
+stoppropagation mathod stop the event form bubbling to parents element.
+
 ## 🧪 Challenges Part (10 Marks)
 
 - On clicking the **Copy button**, show an alert and **increase the copy count** (3 Marks)
